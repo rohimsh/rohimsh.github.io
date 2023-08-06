@@ -1,10 +1,6 @@
 #page title
 page_title                                : Rohit Mishra                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
-# App Info
-playstore_link                            : https://play.google.com/store/apps/dev?id=8232447978100239458                                          # Enter Google Play Store URL.
-                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
-
 # Information About Yourself
 your_name                                 : Rohit Mishra                                
 your_link                                 : https://rohimsh.github.io                   
@@ -14,7 +10,9 @@ facebook_username                         : rohimshra
 instagram_username                        : rohimsh_
 twitter_username                          : rohimsh
 github_username                           : rohimsh
-
+linkedin_username                         : rohimsh
+google_play_id                            : 8232447978100239458 
+profile_logo_icon                         : assets/profile_logo_icon.png
 
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
@@ -66,7 +64,7 @@ topbar_color                              : "#000000"
 topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
-cover_image                               : assets/green_on_right.jpg                    # Replace with alternative image path or image URL.
+cover_image                               : assets/lotus_leaves.jpg                    # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#4c4e4f"
 cover_overlay_transparency                : 0.7
 

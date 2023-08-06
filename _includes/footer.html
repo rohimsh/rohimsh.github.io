@@ -40,6 +40,25 @@
 			</a>
 		{% endif %}
 
+		{% if site.linkedin_username %}
+		<a href="https://github.com/{{ site.linkedin_username }}">
+			<span class="fa-stack fa-1x">
+				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+				<i class="socialIconTop fab fa-linkedin-in fa-stack-1x"></i>
+			</span>
+		</a>
+	    {% endif %}
+
+		{% if site.google_play_link %}
+		<a href="https://play.google.com/store/apps/dev?id={{ site.google_play_link }}">
+			<span class="fa-stack fa-1x">
+				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+				<i class="socialIconTop fab fa-google-play fa-stack-1x"></i>
+			</span>
+		</a>
+		{% endif %}
+
+
 		{% if site.email_address %}
 			<a href="mailto:{{ site.email_address }}">
 				<span class="fa-stack fa-1x">
