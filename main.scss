@@ -10,9 +10,9 @@ $device-color: "assets/{{ site.device_color }}.png";
 $accent-color: {{ site.link_color }};
 
 $header-title-color: {{ site.topbar_title_color }};
-$app-title-color: {{ site.app_title_color }};
-$app-price-color: {{ site.app_price_color }};
-$app-description-color: {{ site.app_description_color }};
+$profile-title-color: {{ site.profile_title_color }};
+$profile-price-color: {{ site.profile_price_color }};
+$profile-description-color: {{ site.profile_description_color }};
 
 $feature-title-color: {{ site.feature_title_color }};
 $feature-text-color: {{ site.feature_text_color }};

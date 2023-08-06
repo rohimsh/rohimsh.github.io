@@ -281,11 +281,11 @@ nav > ul li a:active {
 }
 
 .profileName {
-	color: $app-title-color;
+	color: $profile-title-color;
 }
 
 .profilePrice {
-	color: $app-price-color;
+	color: $profile-price-color;
 	font-weight: normal;
 	margin-top: 13px;
 }
@@ -322,7 +322,7 @@ nav > ul li a:active {
 }
 
 .profileDescription {
-	color: $app-description-color;
+	color: $profile-description-color;
 }
 
 @media only screen and (max-width: 992px) {
