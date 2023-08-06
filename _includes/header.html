@@ -9,13 +9,13 @@
 				</defs>
 			</svg>
 			{% if page.url != '/' %}
-				<a href="../" target="_self"><img class="headerIcon" src="{{ site.app_icon | relative_url }}"></a>
+				<a href="../" target="_self"><img class="headerIcon" src="{{ site.profile_logo_icon | relative_url }}"></a>
 			{% else %}
-				<img class="headerIcon" src="{{ site.app_icon | relative_url }}">
+				<img class="headerIcon" src="{{ site.profile_logo_icon | relative_url }}">
 			{% endif %}
 			<div class="divider"></div>
 		</div>
-		<p class="headerName">{{ site.app_name }}</p>
+		<p class="headerName">{{ site.profile_name }}</p>
 	</div>
 	<nav class="scroll">
 		<ul>
