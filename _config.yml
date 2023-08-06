@@ -14,6 +14,11 @@ linkedin_username                         : rohimsh
 google_play_id                            : 8232447978100239458 
 profile_logo_icon                         : assets/profile_logo_icon.png
 
+
+# About app
+profile_name                                  : About Rohit Mishra
+profile_description                           : Welcome to my page! This is the pathway to enter wormholes of my thoughts and ideas.
+
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 

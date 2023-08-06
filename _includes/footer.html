@@ -4,15 +4,6 @@
 	{% endif %}
 	<div class="footerIcons">
 
-		{% if site.facebook_username %}
-			<a href="https://facebook.com/{{ site.facebook_username }}">
-				<span class="fa-stack fa-1x">
-					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-					<i class="socialIconTop fab fa-facebook fa-stack-1x"></i>
-				</span>
-			</a>
-		{% endif %}
-
 		{% if site.twitter_username %}
 			<a href="https://twitter.com/{{ site.twitter_username }}">
 				<span class="fa-stack fa-1x">
@@ -49,11 +40,20 @@
 		</a>
 	    {% endif %}
 
-		{% if site.google_play_link %}
-		<a href="https://play.google.com/store/apps/dev?id={{ site.google_play_link }}">
+		{% if site.google_play_id %}
+		<a href="https://play.google.com/store/apps/dev?id={{ site.google_play_id }}">
 			<span class="fa-stack fa-1x">
 				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
 				<i class="socialIconTop fab fa-google-play fa-stack-1x"></i>
+			</span>
+		</a>
+		{% endif %}
+
+		{% if site.facebook_username %}
+		<a href="https://facebook.com/{{ site.facebook_username }}">
+			<span class="fa-stack fa-1x">
+				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+				<i class="socialIconTop fab fa-facebook fa-stack-1x"></i>
 			</span>
 		</a>
 		{% endif %}

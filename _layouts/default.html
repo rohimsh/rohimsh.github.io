@@ -25,8 +25,8 @@
 
 
                     </div>
-                    <div class="appInfo">
-                        <div class="appIconShadow">
+                    <div class="profileInfo">
+                        <div class="profileIconShadow">
                             <svg width="0" height="0">
                                 <defs>
                                     <clipPath id="shape120">
@@ -34,22 +34,17 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <img class="appIconLarge" src="{{ site.profile_logo_icon | relative_url }}">
+                            <img class="profileIconLarge" src="{{ site.profile_logo_icon | relative_url }}">
                         </div>
-                        <div class="appNamePriceContainer">
-                            <h1 class="appName">
+                        <div class="profileNamePriceContainer">
+                            <h1 class="profileName">
                                 {{ site.profile_name }}
                             </h1>
                         </div>
-                        <div class="appDescriptionContainer">
+                        <div class="profileDescriptionContainer">
                             <p class ="appDescription">
                                 {{ site.profile_description }}
                             </p>
-                        </div>
-                        <div class="downloadButtonsContainer">
-                            {% if site.playstore_link %}
-                                <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
-                            {% endif %}
                         </div>
                     </div>
                     {% include features.html %}

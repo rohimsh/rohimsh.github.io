@@ -242,7 +242,7 @@ nav > ul li a:active {
 
 // App Title, Price, Description and Links
 
-.appInfo {
+.profileInfo {
 	grid-area: i;
 	display: flex;
 	flex-wrap: wrap;
@@ -252,26 +252,26 @@ nav > ul li a:active {
 
 @media only screen and (max-width: 992px) {
 
-	.appInfo {
+	.profileInfo {
 		padding-top: 50px;
 		justify-content: center;
 	}
 
 } 
 
-.appIconShadow {
+.profileIconShadow {
 	display: flex;
 	filter: $drop-shadow;
 }
 
-.appIconLarge {
+.profileIconLarge {
 	width: 120px;
 	height: 120px;
 	-webkit-clip-path: url(#shape120);
 	clip-path: url(#shape120);
 }
 
-.appNamePriceContainer {
+.profileNamePriceContainer {
 	display: flex;
 	flex: 0 1 auto;
 	flex-direction: column;
@@ -280,11 +280,11 @@ nav > ul li a:active {
 	margin-left: 30px;
 }
 
-.appName {
+.profileName {
 	color: $app-title-color;
 }
 
-.appPrice {
+.profilePrice {
 	color: $app-price-color;
 	font-weight: normal;
 	margin-top: 13px;
@@ -292,26 +292,26 @@ nav > ul li a:active {
 
 @media only screen and (max-width: 768px) {
 
-	.appNamePriceContainer {
+	.profileNamePriceContainer {
 		width: 100%;
 		margin-left: 0px;
 		align-items: center;
 		justify-content: center;
 	}
 
-	.appName {
+	.profileName {
 		margin-top: 30px;
 		text-align: center;
 	}
 	
-	.appPrice {
+	.profilePrice {
 		margin-top: 13px;
 		text-align: center;
 	}
 	
 } 
 
-.appDescriptionContainer {
+.profileDescriptionContainer {
 	font-size: 2.5rem;
 	font-weight: normal;
 	width: 100%;
@@ -321,13 +321,13 @@ nav > ul li a:active {
 	line-height: 1.5;
 }
 
-.appDescription {
+.profileDescription {
 	color: $app-description-color;
 }
 
 @media only screen and (max-width: 992px) {
 
-	.appDescription {
+	.profileDescription {
 		text-align: center;
 	}
 	
@@ -370,7 +370,7 @@ nav > ul li a:active {
 	
 } 
 
-.appStore {
+.profileStore {
 	height: 75px;
 }
 
