@@ -72,7 +72,7 @@ device_color                              : black                               
 
 body_background_color                     : "#ffffff"
 
-link_color                                : "##200b4d"
+link_color                                : "#200b4d"
 
 profile_title_color                       : "#ffffff"
 profile_price_color                       : "#ffffff"
