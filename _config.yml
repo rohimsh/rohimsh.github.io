@@ -23,39 +23,39 @@ profile_description                           : Welcome to my page! This is the 
 features                                  :
 
   - title                                 : Software
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
+    description                           : Software expertise that brings your projects to life, from concept to creation.
     fontawesome_icon_name                 : terminal
     
   - title                                 : Physics
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
+    description                           : Exploring the fabric of the universe: Time, Relativity, and Quantum Computing enthusiast.
     fontawesome_icon_name                 : wrench
 
   - title                                 : Design
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
+    description                           : Designing with distinction: Curating aesthetics that resonate with discerning tastes.
     fontawesome_icon_name                 : palette
 
   - title                                 : Quotes
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
+    description                           : Unveiling wisdom through philosophy: Crafting insightful quotes from contemplation.
     fontawesome_icon_name                 : feather
 
   - title                                 : Teach
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
+    description                           : Simplifying learning: Sharing knowledge in a way that sticks, fostering understanding.
     fontawesome_icon_name                 : chalkboard
   
   - title                                 : AppDev
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
+    description                           : Apps tailored to you: Developing solutions that stem from real-world needs.
     fontawesome_icon_name                 : microchip
 
   - title                                 : Research
-    description                           : Display a smart app banner on iOS devices.
+    description                           : Delving into the depths: Researching Distributed Computing, Databases, and Cloud-based Microservices.
     fontawesome_icon_name                 : search
 
   - title                                 : Socialise
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
+    description                           : Forging connections: Embracing late-night conversations with friends and intriguing minds.
     fontawesome_icon_name                 : hashtag
 
   - title                                 : Astronomy
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
+    description                           : Stellar passions since day one: Nurturing a lifelong love affair with Astronomy.
     fontawesome_icon_name                 : space-shuttle
 
 
@@ -72,7 +72,7 @@ device_color                              : black                               
 
 body_background_color                     : "#ffffff"
 
-link_color                                : "#1d63ea"
+link_color                                : "##200b4d"
 
 profile_title_color                       : "#ffffff"
 profile_price_color                       : "#ffffff"
