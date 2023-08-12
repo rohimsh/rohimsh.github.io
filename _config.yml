@@ -56,8 +56,7 @@ features                                  :
 
   - title                                 : Astronomy
     description                           : Cultivating a lifelong enchantment with Astronomy since childhood, ignited by countless moments of stargazing.
-
-fontawesome_icon_name                 : space-shuttle
+    fontawesome_icon_name                 : space-shuttle
 
 
 # Theme Settings
