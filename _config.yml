@@ -24,44 +24,39 @@ features                                  :
 
   - title                                 : Software
     description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : wand-magic-sparkles
+    fontawesome_icon_name                 : terminal
     
   - title                                 : Physics
     description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+    fontawesome_icon_name                 : gears
 
   - title                                 : Design
     description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+    fontawesome_icon_name                 : palette
 
   - title                                 : Quotes
     description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
+    fontawesome_icon_name                 : feather-pointed
 
   - title                                 : Teach
     description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
+    fontawesome_icon_name                 : chalkboard
   
   - title                                 : AppDev
     description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
+    fontawesome_icon_name                 : microchip
 
   - title                                 : Research
     description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
+    fontawesome_icon_name                 : newspaper
 
   - title                                 : Socialise
     description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
+    fontawesome_icon_name                 : hashtag
 
-  - title                                 : Sharing
+  - title                                 : Astronomy
     description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
-
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
-
+    fontawesome_icon_name                 : shuttle-space
 
 
 # Theme Settings
