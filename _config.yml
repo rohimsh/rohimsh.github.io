@@ -55,8 +55,9 @@ features                                  :
     fontawesome_icon_name                 : hashtag
 
   - title                                 : Astronomy
-    description                           : Stellar passions since day one. Nurturing a lifelong love affair with Astronomy.
-    fontawesome_icon_name                 : space-shuttle
+    description                           : Cultivating a lifelong enchantment with Astronomy since childhood, ignited by countless moments of stargazing.
+
+fontawesome_icon_name                 : space-shuttle
 
 
 # Theme Settings
