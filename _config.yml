@@ -28,7 +28,7 @@ features                                  :
     
   - title                                 : Physics
     description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : gears
+    fontawesome_icon_name                 : wrench
 
   - title                                 : Design
     description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
@@ -36,7 +36,7 @@ features                                  :
 
   - title                                 : Quotes
     description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : feather-pointed
+    fontawesome_icon_name                 : feather
 
   - title                                 : Teach
     description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
@@ -48,7 +48,7 @@ features                                  :
 
   - title                                 : Research
     description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : newspaper
+    fontawesome_icon_name                 : search
 
   - title                                 : Socialise
     description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
@@ -56,7 +56,7 @@ features                                  :
 
   - title                                 : Astronomy
     description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : shuttle-space
+    fontawesome_icon_name                 : space-shuttle
 
 
 # Theme Settings
