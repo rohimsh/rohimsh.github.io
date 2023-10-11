@@ -1,5 +1,6 @@
 ---
 layout: page
+about: Changelog
 title: What's New
 include_in_header: false
 ---

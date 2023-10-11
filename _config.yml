@@ -1,5 +1,5 @@
 #page title
-page_title                                : Rohit Mishra                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Rohit Mishra                                          
 
 # Information About Yourself
 your_name                                 : Rohit Mishra                                
@@ -15,7 +15,8 @@ google_play_id                            : 8232447978100239458
 profile_logo_icon                         : assets/profile_logo_icon.png
 
 
-# About app
+# About profile
+about                                         : About Rohit Mishra
 profile_name                                  : About Rohit Mishra
 profile_description                           : Welcome to my page! This is the pathway to enter wormholes of my thoughts and ideas.
 
