@@ -4,7 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<base target="_blank">
 
-	<title class="pageTitle">{{ page.title | site.page_title }}</title>
+	<title class="pageTitle">{% if page.title == empty %} site.page_title  {% else %} page.title {% endif %}</title>
 	<meta name="description" content="{{ site.profile_description }}">
 
 	<link rel="shortcut icon" href="{{ site.profile_logo_icon | relative_url }}">
