@@ -4,8 +4,8 @@
 	{% endif %}
 	<div class="footerIcons">
 
-		{% if page.id or site.twitter_username %}
-			<a href="https://twitter.com/{{ page.id | default: site.twitter_username }}">
+		{% if page.address or site.twitter_username %}
+			<a href="https://twitter.com/{{ page.address | default: site.twitter_username }}">
 				<span class="fa-stack fa-1x">
 					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
 					<i class="socialIconTop fab fa-twitter fa-stack-1x"></i>
@@ -13,8 +13,8 @@
 			</a>
 		{% endif %}
 
-		{% if page.id or site.instagram_username %}
-			<a href="https://instagram.com/{{ page.id | default: site.instagram_username }}">
+		{% if page.address or site.instagram_username %}
+			<a href="https://instagram.com/{{ page.address | default: site.instagram_username }}">
 				<span class="fa-stack fa-1x">
 					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
 					<i class="socialIconTop fab fa-instagram fa-stack-1x"></i>
@@ -22,7 +22,7 @@
 			</a>
 		{% endif %}
 
-		{% if page.id or site.google_play_id %}
+		{% if page.address or site.google_play_id %}
 		<a href="https://play.google.com/store/apps/dev?id={{ site.google_play_id }}">
 			<span class="fa-stack fa-1x">
 				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
@@ -32,7 +32,7 @@
 		{% endif %}
 
 		{% if site.github_username %}
-			<a href="https://github.com/{{ page.id | default: site.github_username }}">
+			<a href="https://github.com/{{ page.address | default: site.github_username }}">
 				<span class="fa-stack fa-1x">
 					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
 					<i class="socialIconTop fab fa-github fa-stack-1x"></i>
@@ -40,8 +40,8 @@
 			</a>
 		{% endif %}
 
-		{% if page.id or site.facebook_username %}
-		<a href="https://facebook.com/{{ page.id | default: site.facebook_username }}">
+		{% if page.address or site.facebook_username %}
+		<a href="https://facebook.com/{{ page.address | default: site.facebook_username }}">
 			<span class="fa-stack fa-1x">
 				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
 				<i class="socialIconTop fab fa-facebook fa-stack-1x"></i>
@@ -49,8 +49,8 @@
 		</a>
 		{% endif %}
 
-		{% if page.id or site.linkedin_username %}
-		<a href="https://linkedin.com/{{ page.id | default: site.linkedin_username }}">
+		{% if page.address or site.linkedin_username %}
+		<a href="https://linkedin.com/{{ page.address | default: site.linkedin_username }}">
 			<span class="fa-stack fa-1x">
 				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
 				<i class="socialIconTop fab fa-linkedin-in fa-stack-1x"></i>
