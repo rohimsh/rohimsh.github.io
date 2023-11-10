@@ -31,7 +31,7 @@
 		</a>
 		{% endif %}
 
-		{% if site.github_username %}
+		{% if page.address or site.github_username %}
 			<a href="https://github.com/{{ page.address | default: site.github_username }}">
 				<span class="fa-stack fa-1x">
 					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
