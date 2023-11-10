@@ -1,7 +1,7 @@
 ---
 layout: page
 about: QuarkSparx
-title: QuarkSparx | About
+title: About
 include_in_header: false
 include_in_footer: true
 id: quarksparx

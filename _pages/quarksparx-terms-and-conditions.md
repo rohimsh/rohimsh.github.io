@@ -1,7 +1,7 @@
 ---
 layout: page
 about: QuarkSparx
-title: QuarkSparx | Terms and Conditions
+title: Terms and Conditions
 include_in_header: false
 include_in_footer: true
 id: quarksparx
