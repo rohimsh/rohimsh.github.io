@@ -4,8 +4,8 @@
 	{% endif %}
 	<div class="footerIcons">
 
-		{% if site.twitter_username %}
-			<a href="https://twitter.com/{% if page.id == empty %}  {{ site.twitter_username }} {% else %} {{ page.id }} {% endif %}">
+		{% if page.id or site.twitter_username %}
+			<a href="https://twitter.com/{{ page.id | default: site.twitter_username }}">
 				<span class="fa-stack fa-1x">
 					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
 					<i class="socialIconTop fab fa-twitter fa-stack-1x"></i>
@@ -13,8 +13,8 @@
 			</a>
 		{% endif %}
 
-		{% if site.instagram_username %}
-			<a href="https://instagram.com/{% if page.id == empty %}  {{ site.instagram_username }} {% else %} {{ page.id }} {% endif %}">
+		{% if page.id or site.instagram_username %}
+			<a href="https://instagram.com/{{ page.id | default: site.instagram_username }}">
 				<span class="fa-stack fa-1x">
 					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
 					<i class="socialIconTop fab fa-instagram fa-stack-1x"></i>
@@ -22,7 +22,7 @@
 			</a>
 		{% endif %}
 
-		{% if site.google_play_id %}
+		{% if page.id or site.google_play_id %}
 		<a href="https://play.google.com/store/apps/dev?id={{ site.google_play_id }}">
 			<span class="fa-stack fa-1x">
 				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
@@ -32,7 +32,7 @@
 		{% endif %}
 
 		{% if site.github_username %}
-			<a href="https://github.com/{% if page.id == empty %} {{ site.github_username }} {% else %} {{ page.id }} {% endif %}">
+			<a href="https://github.com/{{ page.id | default: site.github_username }}">
 				<span class="fa-stack fa-1x">
 					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
 					<i class="socialIconTop fab fa-github fa-stack-1x"></i>
@@ -40,8 +40,8 @@
 			</a>
 		{% endif %}
 
-		{% if site.facebook_username %}
-		<a href="https://facebook.com/{% if page.id == empty %} {{ site.facebook_username }} {% else %} {{ page.id }} {% endif %}">
+		{% if page.id or site.facebook_username %}
+		<a href="https://facebook.com/{{ page.id | default: site.facebook_username }}">
 			<span class="fa-stack fa-1x">
 				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
 				<i class="socialIconTop fab fa-facebook fa-stack-1x"></i>
@@ -49,8 +49,8 @@
 		</a>
 		{% endif %}
 
-		{% if site.linkedin_username %}
-		<a href="https://linkedin.com/{% if page.id == empty %} {{ site.linkedin_username }} {% else %} {{ page.id }} {% endif %}">
+		{% if page.id or site.linkedin_username %}
+		<a href="https://linkedin.com/{{ page.id | default: site.linkedin_username }}">
 			<span class="fa-stack fa-1x">
 				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
 				<i class="socialIconTop fab fa-linkedin-in fa-stack-1x"></i>
