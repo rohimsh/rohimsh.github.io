@@ -1,9 +1,10 @@
 ---
 layout: page
 about: QuarkSparx
-title: Privacy Policy
+title: QuarkSparx | Privacy Policy
 include_in_header: false
 include_in_footer: false
+id: quarksparx
 ---
 # **Privacy Policy**
 

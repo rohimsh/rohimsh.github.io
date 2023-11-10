@@ -4,7 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<base target="_blank">
 
-	<title class="pageTitle">{{ site.page_title }}</title>
+	<title class="pageTitle">{{ page.title | site.page_title }}</title>
 	<meta name="description" content="{{ site.profile_description }}">
 
 	<link rel="shortcut icon" href="{{ site.profile_logo_icon | relative_url }}">
@@ -19,6 +19,5 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-K2Q059SFYK');
 </script>
