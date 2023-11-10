@@ -3,7 +3,7 @@ layout: page
 about: QuarkSparx
 title: QuarkSparx | Privacy Policy
 include_in_header: false
-include_in_footer: false
+include_in_footer: true
 id: quarksparx
 ---
 # **Privacy Policy**
